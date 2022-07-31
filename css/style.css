@@ -1,0 +1,525 @@
+body{
+  background: #333;
+}
+.myNavbar{
+	/*height:100px;*/
+	padding: 0px;
+	background: #32CD32;
+	border-bottom: none;
+
+}
+
+.myNavbar  .title{
+  color: #FFF;
+  padding-top: 10px;
+  letter-spacing: 2px;
+} 
+.myNavbar .brand{
+	color:#FFF;
+	text-transform:uppercase;
+	font-weight: bold;
+	font-size: 24px;
+	transition: all 0.2s;
+	font-family:freeStyle Script;
+}
+
+.myNavbar .brand:hover{
+	color:#FFF;
+}
+
+
+.navbar-toggler-icon{color: #FFF;
+font-weight: bold;
+font-size: 18px;}
+
+.nav-link{font-size:13px;
+letter-spacing: 1px;
+padding: 6px;
+font-weight:500;
+transition: all 0.2s;
+color: #FFF; 
+}
+
+.nav-link:hover{
+letter-spacing: 1px;
+color: #fff;
+background: #333;
+}
+
+
+.login-link{font-size:14px;
+letter-spacing: 1px;
+transition: all 0.2s;
+color:#000; 
+padding: 10px;
+font-weight: 400;
+text-decoration: none;
+border-radius: 10px;
+background: #FFF;
+}
+
+.login-link:hover{font-size:14px;
+color:#32CD32; 
+padding: 10px;
+text-decoration: none;
+border-radius: 10px;
+background: #333;
+}
+
+.searchBox{
+	margin-top: 140px;
+	padding: 10px;
+	background: #32CD32;
+	
+}
+.myHeader{
+	color: #FFF;
+	font-size: 24px;
+}
+.formLabel{color: #FFF;
+}
+
+.formSubmit{
+	width: 150px;
+	background: #fff;
+	color: #333;
+	transition: all 0.2s;
+	font-weight: bold;
+}
+
+.formSubmit:hover{
+	background: #333;
+	color: #fff;
+}
+
+.dataBox{
+	margin-top: 80px;
+}
+.missingCaseBox{
+	border: 2px solid #32CD32;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.caseDetails h4{
+	font-size: 24px;
+}
+.caseDetails p{
+	font-size: 13px;
+}
+
+.caseBtn{
+	background:#fff;
+	color: #000;
+}
+
+.caseBtn:hover{
+	color: #fff;
+	background:#333;
+	text-decoration: none;
+}
+
+ .announcment{background:#32CD32;
+ 	border-radius: 10px;
+}
+
+
+.myColor{color:#32CD32;}
+
+
+.separator_autoColor{
+    width:85px;
+    height:2px;
+    margin:10px auto;
+    background: #32CD32;
+}
+
+.separator_leftColor{
+    width:85px;
+    height:2px;
+    margin:10px 0px;
+    background: #32CD32;
+}
+
+
+.separator_left{
+    width:85px;
+    height:2px;
+    margin:10px 0px;
+    background: #FFF;
+}
+
+.separator_auto{
+    width:85px;
+    height:2px;
+    margin:10px auto;
+    background: #FFF;
+}
+.case-contents .case-img{
+  width: 100%;
+}
+
+.case-details{
+  padding: 14px;
+  background: #32CD32;
+  width: 95%;
+  position: relative;
+  top: -30px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #000;
+
+}
+
+.breadcrumb{
+    padding: 8px 0px;
+    margin-bottom: 0px;
+     list-style: none;
+    background-color: transparent;
+    border-radius: 0px;
+    text-transform: capitalize;
+    
+}
+
+
+.breadcrumb li{
+     padding-left: 12px;
+     padding-right: 12px;
+}
+
+
+.breadcrumb li p,.breadcrumb li p{
+      text-decoration:none;
+      font-size: 14px;
+      color: #FFF;
+      font-weight: 400;
+      cursor: pointer;
+}
+
+.case-text{color:#FFF !important;
+/*text-transform: none;*/
+}
+
+
+.case-details a{text-decoration:none;}
+
+.case-details h2{
+    font-size: 20px;
+  font-weight: 550;
+  color: #FFF;
+  font-family:verdana; 
+  
+}
+
+.headerBox{
+	margin-top: 120px;
+	padding: 20px;
+	background: #32CD32;
+	text-align: center;
+	border-radius: 10px;
+}
+.myHeaderTitle{
+	letter-spacing: 2px;
+	color: #FFF;
+	font-family: freeStyle Script;
+	font-size: 28px;
+	text-transform: uppercase;
+}
+
+
+/* Blog */
+
+
+.blogBox{margin-top: 20px;}
+.blog-contents .blog-img{
+  width: 100%;
+}
+
+.blog-details{
+  padding: 14px;
+  background: #32CD32;
+  width: 90%;
+  position: relative;
+  top: -40px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #000;
+
+}
+
+.breadcrumb{
+    padding: 8px 0px;
+    margin-bottom: 0px;
+     list-style: none;
+    background-color: transparent;
+    border-radius: 0px;
+    text-transform: capitalize;
+    
+}
+
+
+.breadcrumb li{
+     padding-left: 12px;
+     padding-right: 12px;
+}
+
+
+.breadcrumb li p,.breadcrumb li p{
+      text-decoration:none;
+      font-size: 14px;
+      color: #FFF;
+      font-weight: 400;
+      cursor: pointer;
+}
+
+.case-text{color:#FFF !important;
+}
+
+
+.blog-details a{text-decoration:none;}
+
+.blog-details h2{
+    font-size: 20px;
+  font-weight: 550;
+  color: #FFF;
+  font-family:verdana; 
+  
+}
+
+
+#footer{
+	margin-top: 80px;
+	padding-top: 20px;
+	background: #32CD32;
+}
+
+#followUs .social-clicks{
+  margin-bottom: 20px;
+}
+
+.footerTitle{
+  color: #FFF;
+  font-size: 36px;
+  font-family: freeStyle Script;
+}
+
+.bodyTitle{
+  color: #FFF;
+  font-size: 36px;
+  font-family: freeStyle Script;
+}
+
+
+.social-clicks a{
+  display: inline-block;
+  font-size: 18px;
+  padding: 7px 0px;
+  background: #fff;
+  color: #32CD32;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.social-clicks a:hover{
+background:#333;
+}
+
+#contactUs p{
+	color: #FFF;
+	font-size: 14px;
+}
+
+.footerBorder{
+	padding: 10px;
+}
+
+.footerBorder p{
+	color: #FFF;
+	margin-top: -5px;
+}
+
+/* contact */
+
+#myBody{
+	margin-top: 40px;
+}
+
+
+
+.mape{
+    height: 500px;
+    width:100%;
+}
+
+.contactDetails{
+	padding:10px;
+}
+
+.teamBox{
+	background: #32CD32;
+	color: #fff;
+	border-radius: 10px;
+	padding-bottom: 10px;
+}
+
+
+.teamBox .title{
+	font-size: 20px;
+	font-family: verdana;
+}
+
+.teamBox .subTitle{
+	font-size: 14px;
+	font-family: verdana;
+}
+
+.teamBox .description{
+	font-size: 14px;
+	padding: 5px;
+}
+
+
+/* Gallery */
+
+
+#gallery{margin-top: 30px;}
+.galleryBox{
+height: 200px;
+position: relative;
+overflow: hidden !important;
+margin-bottom: 15px;
+transition: all 350ms ease;
+transition:scale(1);}
+
+
+.galleryBox a{
+  display: block;
+  margin-right: 15px;
+}
+
+#gallery .galleryBox img{
+  position: relative;
+  top: 0;
+  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#gallery .galleryBox .details {
+  height: 50px;
+  background: #32CD32;
+  position: absolute;
+  width: 88.3%;
+  height: 50px;
+  bottom: -50px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+
+#gallery .galleryBox .details h4{
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  padding: 8px 0 2px 8px;
+  margin: 0;
+}
+
+#gallery .galleryBox .details span{
+
+display: block;
+  color: #fff;
+  font-size: 13px;
+  padding-left: 8px;
+}
+
+
+#gallery .galleryBox:hover .details {
+  bottom: 0;
+}
+
+
+#gallery .galleryBox:hover img {
+  top: -30px;
+}
+
+/* login Page */
+
+#loginForm, #signUpForm{
+  background:#FFF;
+  padding: 20px;
+  border: 1px solid #ccc;
+box-shadow: 0px 2px 4px 2px #CCC;}
+
+.form-btn1{
+background: #32CD32;
+color: #FFF;
+}
+
+
+.form-btn1:hover{
+
+background:#333;
+color: #FFF;
+}
+
+.form-btn2{
+background: orange;
+color: #FFF;
+}
+
+
+.form-btn2:hover{
+
+background: #333;
+color: #FFF;
+
+}
+
+/* Case Form */
+
+#caseForm label{
+  color: #FFF;
+}
+
+#finderForm label{
+  color: #FFF;
+}
+
+
+.btn-file {
+  position: relative;
+  background: #FFF;
+  color: #333;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+.caseImg{
+width:400px;
+height: auto;
+}
+
+
+.activeLink{
+  color: #FFF;
+  background: #32CD32;
+  padding: 5px;
+}
+
+.myPagination{
+  color: #333;
+  background: #FFF;
+  padding: 5px;
+}
